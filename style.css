@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+body {
+    
+    font-size: 1.6rem;
+    background-image: url(./images/Fundo.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #121214;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/***** header *****/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+#perfil {
+    margin-top: 4rem;
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+/***** Section *****/
+
+ul {
+    display: flex;
+    gap: 1.6rem;
+    
+}
+
+a img  {
+    border-radius: 4px;
+ 
+}
+
+#stremer ul img {
+    border-radius: 999px;
+
+}
+
+h2 {
+    padding-top: 2.2rem;
+    line-height: 160%;
+    font-family: 'Inter';
+    font-size: 2.9rem;
+    color: #FFFFFF;
+}
+
+section {
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    border-radius: 14px;
+    margin: 2rem;
+
+    
+}
+
+#box {
+    padding-bottom: 3.2rem;
+    background: #2A2634;
+    margin-top: .4rem;
+    width: 58rem;
+    border-radius: 8px;
+    padding-left: 3.2rem;
+    box-shadow: 0 11px 6px -6px #000;
+}
+
+p {
+    padding-bottom: 2.2rem;
+    color: #A1A1AA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 160%;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
